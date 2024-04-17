@@ -3,6 +3,10 @@ html {
 }
 
 body {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     font-family: "Figtree", sans-serif;
     font-optical-sizing: auto;
     font-weight: 400;
@@ -11,8 +15,8 @@ body {
 }
 
 main {
-    margin: 3vh auto 0;
-    max-width: 25vw;
+    /* margin: 3vh auto 0;
+    max-width: 25vw; */
     background-color: hsl(212, 45%, 89%);
     background-color: transparent;
 }
