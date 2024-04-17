@@ -1,0 +1,205 @@
+html {
+    font-size: 15px
+}
+
+body {
+    font-family: "Figtree", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    background-color: hsl(47, 88%, 63%);
+}
+
+main {
+    margin: 3vh auto 0;
+    max-width: 25vw;
+    background-color: hsl(212, 45%, 89%);
+    background-color: transparent;
+}
+
+.card {
+    border: 1px solid hsl(0, 0%, 7%);
+    padding: 1rem;
+    background-color: hsl(0, 0%, 100%);
+    box-shadow: 8px 8px 4px;
+    border-radius: 5%;
+    -webkit-border-radius: 5%;
+    -moz-border-radius: 5%;
+    -ms-border-radius: 5%;
+    -o-border-radius: 5%;
+}
+
+img {
+    width: 100%;
+    border-radius: 5%;
+    -webkit-border-radius: 5%;
+    -moz-border-radius: 5%;
+    -ms-border-radius: 5%;
+    -o-border-radius: 5%;
+}
+
+.img-avatar {
+    width: 12%;
+    height: 12%;
+    padding-right: 0.5rem;
+    padding-top: 0.5rem;
+}
+
+.profile {
+    display: flex;
+    font-size: 1rem;
+}
+
+h3,
+p {
+    text-align: left;
+}
+
+.p_text {
+    color: hsl(0, 0%, 50%);
+}
+
+h3:hover {
+    color: hsl(47, 88%, 63%);
+}
+
+.btn {
+    display: inline-block;
+    font-size: 0.85rem;
+    padding: 0.5rem;
+    background-color: hsl(47, 88%, 63%);
+    font-weight: 800;
+    border-radius: 7%;
+    -webkit-border-radius: 7%;
+    -moz-border-radius: 7%;
+    -ms-border-radius: 7%;
+    -o-border-radius: 7%;
+}
+
+
+/* XS */
+
+@media (min-width: 320px) {
+    main {
+        max-width: 60vw;
+        font-size: 0.7em;
+    }
+    .profile {
+        display: flex;
+        font-size: 0.8rem;
+    }
+}
+
+@media (min-width: 390px) {
+    main {
+        max-width: 60vw;
+        font-size: 0.7em;
+    }
+    .profile {
+        display: flex;
+        font-size: 0.8rem;
+    }
+}
+
+@media (min-width: 475px) {
+    main {
+        max-width: 60vw;
+        font-size: 0.8em;
+    }
+}
+
+@media (min-width: 480px) {
+    main {
+        max-width: 60vw;
+        font-size: 0.8em;
+    }
+}
+
+
+/* sm */
+
+@media (min-width: 640px) {
+    main {
+        max-width: 60vw;
+        font-size: 0.8em;
+    }
+    .profile {
+        display: flex;
+        font-size: 1rem;
+    }
+}
+
+
+/* md */
+
+@media (min-width: 680px) {
+    main {
+        max-width: 30vw;
+        font-size: 0.8em;
+    }
+    .profile {
+        display: flex;
+        font-size: 1rem;
+    }
+}
+
+@media (min-width: 768px) {
+    main {
+        max-width: 30vw;
+        font-size: 0.8em;
+    }
+    .profile {
+        display: flex;
+        font-size: 1rem;
+    }
+}
+
+@media (min-width: 800px) {
+    main {
+        max-width: 35vw;
+        font-size: 0.9em;
+    }
+    .profile {
+        display: flex;
+        font-size: 1rem;
+    }
+}
+
+@media (min-width: 900px) {
+    main {
+        max-width: 30vw;
+        font-size: 0.8em;
+    }
+    .profile {
+        display: flex;
+        font-size: 1rem;
+    }
+}
+
+
+/* xL */
+
+@media (min-width: 1024px) {
+    main {
+        max-width: 25vw;
+        font-size: 0.9em;
+    }
+    .profile {
+        display: flex;
+        font-size: 1rem;
+    }
+}
+
+
+/* 2xL */
+
+@media (min-width: 1280px) {
+    main {
+        max-width: 25vw;
+        font-size: 1.1em;
+    }
+    .profile {
+        display: flex;
+        font-size: 1rem;
+    }
+}
