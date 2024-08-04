@@ -1,30 +1,44 @@
 html {
-    font-size: 15px
+    font-size: 15px;
+}
+
+:root {
+    --Yellow: #f4d04e;
+    --grey-black: #111111;
+    --grey-500: #6b6b6b;
+    --white: #ffffff;
 }
 
 body {
-    min-height: 100vh;
     display: flex;
-    justify-content: center;
+    flex-direction: column;
     align-items: center;
+    justify-items: center;
+    height: calc(100vh -1px);
+    margin: 1rem;
     font-family: "Figtree", sans-serif;
     font-optical-sizing: auto;
     font-weight: 400;
     font-style: normal;
-    background-color: hsl(47, 88%, 63%);
+    background-color: var(--Yellow);
+}
+
+.srn {
+    visibility: hidden;
+    display: none;
 }
 
 main {
     /* margin: 3vh auto 0;
     max-width: 25vw; */
-    background-color: hsl(212, 45%, 89%);
+    background-color: var(--grey-500);
     background-color: transparent;
 }
 
 .card {
-    border: 1px solid hsl(0, 0%, 7%);
+    border: 1px solid var(--grey-black);
     padding: 1rem;
-    background-color: hsl(0, 0%, 100%);
+    background-color: var(--white);
     box-shadow: 8px 8px 4px;
     border-radius: 5%;
     -webkit-border-radius: 5%;
@@ -34,6 +48,8 @@ main {
 }
 
 img {
+    display: block;
+    max-width: 800px;
     width: 100%;
     border-radius: 5%;
     -webkit-border-radius: 5%;
@@ -60,24 +76,38 @@ p {
 }
 
 .p_text {
-    color: hsl(0, 0%, 50%);
+    color: var(--grey-500);
 }
 
 h3:hover {
-    color: hsl(47, 88%, 63%);
+    color: var(--Yellow);
 }
 
 .btn {
     display: inline-block;
     font-size: 0.85rem;
     padding: 0.5rem;
-    background-color: hsl(47, 88%, 63%);
+    background-color: var(--Yellow);
     font-weight: 800;
     border-radius: 7%;
     -webkit-border-radius: 7%;
     -moz-border-radius: 7%;
     -ms-border-radius: 7%;
     -o-border-radius: 7%;
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl (228, 45%, 45%);
+}
+
+footer {
+    position: absolute;
+    bottom: 0.5rem;
 }
 
 
