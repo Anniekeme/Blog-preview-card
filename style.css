@@ -1,239 +1,209 @@
 html {
-    font-size: 15px;
+  font-size: 15px;
 }
 
 :root {
-    --Yellow: #f4d04e;
-    --grey-black: #111111;
-    --grey-500: #6b6b6b;
-    --white: #ffffff;
+  --Yellow: #f4d04e;
+  --grey-black: #111111;
+  --grey-500: #6b6b6b;
+  --white: #ffffff;
 }
 
 body {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-items: center;
-    height: calc(100vh -1px);
-    margin: 1rem;
-    font-family: "Figtree", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: 400;
-    font-style: normal;
-    background-color: var(--Yellow);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-items: center;
+  height: calc(100vh -1px);
+  margin: 1rem;
+  font-family: "Figtree", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  background-color: var(--Yellow);
 }
 
 .srn {
-    visibility: hidden;
-    display: none;
+  visibility: hidden;
+  display: none;
 }
 
 main {
-    /* margin: 3vh auto 0;
-    max-width: 25vw; */
-    background-color: var(--grey-500);
-    background-color: transparent;
+  background-color: var(--grey-500);
+  background-color: transparent;
 }
 
 .card {
-    border: 1px solid var(--grey-black);
-    padding: 1rem;
-    background-color: var(--white);
-    box-shadow: 8px 8px 4px;
-    border-radius: 5%;
-    -webkit-border-radius: 5%;
-    -moz-border-radius: 5%;
-    -ms-border-radius: 5%;
-    -o-border-radius: 5%;
+  margin-top: 3rem;
+  border: 1px solid var(--grey-black);
+  padding: 1rem;
+  background-color: var(--white);
+  box-shadow: 8px 8px 4px;
+  border-radius: 5%;
+  -webkit-border-radius: 5%;
+  -moz-border-radius: 5%;
+  -ms-border-radius: 5%;
+  -o-border-radius: 5%;
 }
 
 img {
-    display: block;
-    max-width: 800px;
-    width: 100%;
-    border-radius: 5%;
-    -webkit-border-radius: 5%;
-    -moz-border-radius: 5%;
-    -ms-border-radius: 5%;
-    -o-border-radius: 5%;
+  display: block;
+  max-width: 800px;
+  width: 100%;
+  border-radius: 5%;
+  -webkit-border-radius: 5%;
+  -moz-border-radius: 5%;
+  -ms-border-radius: 5%;
+  -o-border-radius: 5%;
 }
 
 .img-avatar {
-    width: 12%;
-    height: 12%;
-    padding-right: 0.5rem;
-    padding-top: 0.5rem;
+  width: 12%;
+  height: 12%;
+  padding-right: 0.5rem;
+  padding-top: 0.5rem;
 }
 
 .profile {
-    display: flex;
-    font-size: 1rem;
+  display: flex;
+  font-size: 1rem;
 }
 
 h3,
 p {
-    text-align: left;
+  text-align: left;
 }
 
 .p_text {
-    color: var(--grey-500);
+  color: var(--grey-500);
 }
 
 h3:hover {
-    color: var(--Yellow);
+  color: var(--Yellow);
 }
 
 .btn {
-    display: inline-block;
-    font-size: 0.85rem;
-    padding: 0.5rem;
-    background-color: var(--Yellow);
-    font-weight: 800;
-    border-radius: 7%;
-    -webkit-border-radius: 7%;
-    -moz-border-radius: 7%;
-    -ms-border-radius: 7%;
-    -o-border-radius: 7%;
+  display: inline-block;
+  font-size: 0.85rem;
+  padding: 0.5rem;
+  background-color: var(--Yellow);
+  font-weight: 800;
+  border-radius: 7%;
+  -webkit-border-radius: 7%;
+  -moz-border-radius: 7%;
+  -ms-border-radius: 7%;
+  -o-border-radius: 7%;
 }
 
 .attribution {
-    font-size: 11px;
-    text-align: center;
+  font-size: 11px;
+  text-align: center;
 }
 
 .attribution a {
-    color: hsl (228, 45%, 45%);
+  color: hsl (228, 45%, 45%);
 }
 
 footer {
-    position: absolute;
-    bottom: 0.5rem;
+  position: absolute;
+  bottom: 0.5rem;
 }
 
-
-/* XS */
-
-@media (min-width: 320px) {
-    main {
-        max-width: 60vw;
-        font-size: 0.7em;
-    }
-    .profile {
-        display: flex;
-        font-size: 0.8rem;
-    }
+@media (min-width: 375px) {
+  main {
+    max-width: 65vw;
+    font-size: 0.8em;
+  }
 }
 
-@media (min-width: 390px) {
-    main {
-        max-width: 60vw;
-        font-size: 0.7em;
-    }
-    .profile {
-        display: flex;
-        font-size: 0.8rem;
-    }
+@media (min-width: 455px) {
+  main {
+    max-width: 60vw;
+    font-size: 0.8em;
+  }
 }
-
-@media (min-width: 475px) {
-    main {
-        max-width: 60vw;
-        font-size: 0.8em;
-    }
-}
-
-@media (min-width: 480px) {
-    main {
-        max-width: 60vw;
-        font-size: 0.8em;
-    }
-}
-
 
 /* sm */
 
 @media (min-width: 640px) {
-    main {
-        max-width: 60vw;
-        font-size: 0.8em;
-    }
-    .profile {
-        display: flex;
-        font-size: 1rem;
-    }
+  main {
+    max-width: 45vw;
+    font-size: 0.8em;
+  }
+  .profile {
+    display: flex;
+    font-size: 1rem;
+  }
 }
-
 
 /* md */
 
 @media (min-width: 680px) {
-    main {
-        max-width: 30vw;
-        font-size: 0.8em;
-    }
-    .profile {
-        display: flex;
-        font-size: 1rem;
-    }
+  main {
+    max-width: 40vw;
+    font-size: 0.8em;
+  }
+  .profile {
+    display: flex;
+    font-size: 1rem;
+  }
+}
+
+@media (min-width: 680px) {
+  main {
+    max-width: 40vw;
+    font-size: 0.8em;
+  }
+  .profile {
+    display: flex;
+    font-size: 1rem;
+  }
 }
 
 @media (min-width: 768px) {
-    main {
-        max-width: 30vw;
-        font-size: 0.8em;
-    }
-    .profile {
-        display: flex;
-        font-size: 1rem;
-    }
+  main {
+    max-width: 39vw;
+    font-size: 0.8em;
+  }
+  .profile {
+    display: flex;
+    font-size: 1rem;
+  }
 }
 
 @media (min-width: 800px) {
-    main {
-        max-width: 35vw;
-        font-size: 0.9em;
-    }
-    .profile {
-        display: flex;
-        font-size: 1rem;
-    }
+  main {
+    max-width: 30vw;
+    font-size: 0.9em;
+  }
+  .profile {
+    display: flex;
+    font-size: 1rem;
+  }
 }
-
-@media (min-width: 900px) {
-    main {
-        max-width: 30vw;
-        font-size: 0.8em;
-    }
-    .profile {
-        display: flex;
-        font-size: 1rem;
-    }
-}
-
 
 /* xL */
 
 @media (min-width: 1024px) {
-    main {
-        max-width: 25vw;
-        font-size: 0.9em;
-    }
-    .profile {
-        display: flex;
-        font-size: 1rem;
-    }
+  main {
+    max-width: 23vw;
+    font-size: 0.9em;
+  }
+  .profile {
+    display: flex;
+    font-size: 1rem;
+  }
 }
-
 
 /* 2xL */
 
 @media (min-width: 1280px) {
-    main {
-        max-width: 25vw;
-        font-size: 1.1em;
-    }
-    .profile {
-        display: flex;
-        font-size: 1rem;
-    }
+  main {
+    max-width: 25vw;
+    font-size: 1.1em;
+  }
+  .profile {
+    display: flex;
+    font-size: 1rem;
+  }
 }
